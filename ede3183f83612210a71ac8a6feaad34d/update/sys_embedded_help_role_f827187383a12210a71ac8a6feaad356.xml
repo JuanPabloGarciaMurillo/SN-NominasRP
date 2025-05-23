@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_999278_nominasrp.promotores_user" name="x_999278_nominasrp.promotores_user">b427187383a12210a71ac8a6feaad355</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 03:42:29</sys_created_on>
+        <sys_id>f827187383a12210a71ac8a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b427187383a12210a71ac8a6feaad355</sys_name>
+        <sys_package display_value="NominasRP" source="x_999278_nominasrp">ede3183f83612210a71ac8a6feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NominasRP">ede3183f83612210a71ac8a6feaad34d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f827187383a12210a71ac8a6feaad356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 03:42:29</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

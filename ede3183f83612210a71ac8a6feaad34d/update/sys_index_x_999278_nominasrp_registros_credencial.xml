@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>credencial</col_name_string>
+        <index_col_name element="credencial" name="x_999278_nominasrp_registros">a5349c3f83612210a71ac8a6feaad39b</index_col_name>
+        <logical_table_name>x_999278_nominasrp_registros</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-05-23 03:51:34</sys_created_on>
+        <sys_id>0239507783a12210a71ac8a6feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_999278_nominasrp_registros</sys_name>
+        <sys_package display_value="NominasRP" source="x_999278_nominasrp">ede3183f83612210a71ac8a6feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NominasRP">ede3183f83612210a71ac8a6feaad34d</sys_scope>
+        <sys_update_name>sys_index_x_999278_nominasrp_registros_credencial</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-23 03:51:34</sys_updated_on>
+        <table display_value="Registros" name="x_999278_nominasrp_registros">95349c3f83612210a71ac8a6feaad312</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

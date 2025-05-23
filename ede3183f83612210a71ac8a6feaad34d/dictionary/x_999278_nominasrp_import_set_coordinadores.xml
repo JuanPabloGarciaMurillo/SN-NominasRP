@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5ac3b4b783252210a71ac8a6feaad36c" extends="sys_import_set_row" label="Data Source - Coordinadores" max_length="40" name="x_999278_nominasrp_import_set_coordinadores" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NOMBRE" label="NOMBRE" max_length="40" name="u_nombre" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GERENCIA" label="GERENCIA" max_length="40" name="u_gerencia" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ALIAS" label="ALIAS" max_length="40" name="u_alias" type="string"/>
+    </element>
+</database>

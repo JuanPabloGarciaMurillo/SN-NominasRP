@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1ab8903783a12210a71ac8a6feaad3a2" extends="sys_import_set_row" label="Registros Import Set" max_length="40" name="x_999278_nominasrp_registros_rp" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NOMBRE DEL ALUMNO" label="NOMBRE DEL ALUMNO" max_length="40" name="u_nombre_del_alumno" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GERENTE" label="GERENTE" max_length="40" name="u_gerente" type="string"/>
+        <element attributes="import_attribute_name=GRUPO" label="GRUPO" max_length="40" name="u_grupo" type="integer"/>
+        <element attributes="import_attribute_name=PAGO" label="PAGO" max_length="40" name="u_pago" type="integer"/>
+        <element attributes="import_attribute_name=TS CREDENCIAL" label="TS CREDENCIAL" max_length="40" name="u_ts_credencial" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CREDENCIAL" label="CREDENCIAL" max_length="40" name="u_credencial" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CURSO" label="CURSO" max_length="40" name="u_curso" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=TS PLANTEL" label="TS PLANTEL" max_length="40" name="u_ts_plantel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=COORDINADOR" label="COORDINADOR" max_length="40" name="u_coordinador" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PLANTEL" label="PLANTEL" max_length="40" name="u_plantel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PROMOTOR" label="PROMOTOR" max_length="40" name="u_promotor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=COMISION" label="COMISION" max_length="40" name="u_comision" type="string"/>
+        <element attributes="import_attribute_name=FECHA" label="FECHA" max_length="40" name="u_fecha" type="integer"/>
+    </element>
+</database>

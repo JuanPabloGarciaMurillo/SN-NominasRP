@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7627d47383a12210a71ac8a6feaad3a0" label="Coordinadores" max_length="40" name="x_999278_nominasrp_coordinadores" type="collection">
+        <element label="Nombre Completo" max_length="40" name="nombre_completo" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Apellido Materno" max_length="40" name="apellido_materno" type="string"/>
+        <element label="Segundo Nombre" max_length="40" name="segundo_nombre" type="string"/>
+        <element display="true" label="Alias" max_length="40" name="alias" type="string"/>
+        <element label="Apellido Paterno" max_length="40" name="apellido_paterno" type="string"/>
+        <element label="Nombre" max_length="40" name="nombre" type="string"/>
+    </element>
+</database>
