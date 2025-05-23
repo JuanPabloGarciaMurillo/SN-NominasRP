@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fe38ecf783e12210a71ac8a6feaad368" extends="sys_import_set_row" label="Data Source Gerentes" max_length="40" name="x_999278_nominasrp_import_set_gerentes" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NOMBRE" label="NOMBRE" max_length="40" name="u_nombre" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ALIAS" label="ALIAS" max_length="40" name="u_alias" type="string"/>
+    </element>
+</database>

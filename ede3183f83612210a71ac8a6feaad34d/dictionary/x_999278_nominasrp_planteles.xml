@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7cd598bf83612210a71ac8a6feaad3b7" label="Planteles" max_length="40" name="x_999278_nominasrp_planteles" type="collection">
+        <element display="true" label="Nombre" max_length="40" name="nombre" type="string"/>
+        <element label="Direccion" max_length="40" name="direccion" type="string"/>
+        <element label="Razon Social" max_length="40" name="razon_social" type="string"/>
+    </element>
+</database>

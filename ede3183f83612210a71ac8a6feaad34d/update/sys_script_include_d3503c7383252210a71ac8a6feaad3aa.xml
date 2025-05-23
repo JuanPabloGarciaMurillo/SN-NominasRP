@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_999278_nominasrp.NameParserUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>NameParserUtils</name>
+        <script><![CDATA[var NameParserUtils = Class.create();
+NameParserUtils.prototype = {
+    initialize: function() {
+        // Constructor – no initialization required
+    },
+
+    /**
+     * Internal helper to parse the full name string into components.
+     * Not intended to be called externally.
+     */
+    _parseFullName: function(fullName) {
+        if (!fullName)
+            return {};
+
+        var parts = fullName.trim().split(/\s+/);
+
+        var firstName = "";
+        var secondName = "";
+        var firstLastName = "";
+        var secondLastName = "";
+
+        if (parts.length >= 4) {
+            firstName = parts[0];
+            secondName = parts[1];
+            firstLastName = parts[2];
+            secondLastName = parts[3];
+        } else if (parts.length === 3) {
+            firstName = parts[0];
+            firstLastName = parts[1];
+            secondLastName = parts[2];
+        } else if (parts.length === 2) {
+            firstName = parts[0];
+            firstLastName = parts[1];
+        } else if (parts.length === 1) {
+            firstName = parts[0];
+        }
+
+        return {
+            firstName: firstName,
+            secondName: secondName,
+            firstLastName: firstLastName,
+            secondLastName: secondLastName
+        };
+    },
+
+    /**
+     * Returns the first name from a full name string.
+     * @param {String} fullName
+     * @return {String}
+     */
+    getFirstName: function(fullName) {
+        return this._parseFullName(fullName).firstName || "";
+    },
+
+    /**
+     * Returns the second name from a full name string.
+     * @param {String} fullName
+     * @return {String}
+     */
+    getSecondName: function(fullName) {
+        return this._parseFullName(fullName).secondName || "";
+    },
+
+    /**
+     * Returns the first last name from a full name string.
+     * @param {String} fullName
+     * @return {String}
+     */
+    getFirstLastName: function(fullName) {
+        return this._parseFullName(fullName).firstLastName || "";
+    },
+
+    /**
+     * Returns the second last name from a full name string.
+     * @param {String} fullName
+     * @return {String}
+     */
+    getSecondLastName: function(fullName) {
+        return this._parseFullName(fullName).secondLastName || "";
+    },
+
+    /**
+     * Reconstructs a formatted full name from its components.
+     * Includes second name and second last name only if present.
+     * @param {String} fullName - The original full name string to parse
+     * @return {String} - Formatted full name (e.g., "ALYN SINAI VELAZCO GOMEZ")
+     */
+    getFullName: function(fullName) {
+        var parts = this._parseFullName(fullName);
+
+        var nameParts = [];
+
+        if (parts.firstName)
+            nameParts.push(parts.firstName);
+
+        if (parts.secondName)
+            nameParts.push(parts.secondName);
+
+        if (parts.firstLastName)
+            nameParts.push(parts.firstLastName);
+
+        if (parts.secondLastName)
+            nameParts.push(parts.secondLastName);
+
+        return nameParts.join(" ");
+    },
+
+    type: 'NameParserUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 05:35:29</sys_created_on>
+        <sys_id>d3503c7383252210a71ac8a6feaad3aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NameParserUtils</sys_name>
+        <sys_package display_value="NominasRP" source="x_999278_nominasrp">ede3183f83612210a71ac8a6feaad34d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NominasRP">ede3183f83612210a71ac8a6feaad34d</sys_scope>
+        <sys_update_name>sys_script_include_d3503c7383252210a71ac8a6feaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 05:37:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

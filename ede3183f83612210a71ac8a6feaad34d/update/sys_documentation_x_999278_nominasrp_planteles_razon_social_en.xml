@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="razon_social" label="Razon Social" language="en" table="x_999278_nominasrp_planteles">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>razon_social</element>
+            <help/>
+            <hint/>
+            <label>Razon Social</label>
+            <language>en</language>
+            <name>x_999278_nominasrp_planteles</name>
+            <plural>Razon Socials</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 03:38:41</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Razon Social</sys_name>
+            <sys_package display_value="NominasRP" source="x_999278_nominasrp">ede3183f83612210a71ac8a6feaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NominasRP">ede3183f83612210a71ac8a6feaad34d</sys_scope>
+            <sys_update_name>sys_documentation_x_999278_nominasrp_planteles_razon_social_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 03:38:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
