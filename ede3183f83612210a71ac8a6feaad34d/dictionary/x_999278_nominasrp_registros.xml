@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="95349c3f83612210a71ac8a6feaad312" label="Registros" max_length="40" name="x_999278_nominasrp_registros" type="collection">
-        <element label="Planteles" max_length="32" name="planteles" reference="x_999278_nominasrp_planteles" type="reference"/>
         <element label="Coordinador" max_length="32" name="coordinador" reference="x_999278_nominasrp_coordinadores" type="reference"/>
-        <element label="Cursos" max_length="32" name="cursos" reference="x_999278_nominasrp_cursos" type="reference"/>
         <element label="Promotor" max_length="32" name="promotor" reference="x_999278_nominasrp_promotores" type="reference"/>
+        <element label="Curso" max_length="32" name="curso" reference="x_999278_nominasrp_cursos" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Credencial" max_length="40" name="credencial" type="string"/>
+        <element label="Plantel" max_length="32" name="plantel" reference="x_999278_nominasrp_planteles" type="reference"/>
         <element label="Fecha" max_length="40" name="fecha" type="glide_date"/>
         <element label="Gerente" max_length="32" name="gerente" reference="x_999278_nominasrp_gerentes" type="reference"/>
         <index name="index">
@@ -14,13 +14,13 @@
             <element name="credencial"/>
         </index>
         <index name="index3">
-            <element name="cursos"/>
+            <element name="curso"/>
         </index>
         <index name="index4">
             <element name="gerente"/>
         </index>
         <index name="index5">
-            <element name="planteles"/>
+            <element name="plantel"/>
         </index>
         <index name="index6">
             <element name="promotor"/>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fa17187383a12210a71ac8a6feaad331" label="Promotores" max_length="40" name="x_999278_nominasrp_promotores" type="collection">
-        <element label="Apellido" max_length="40" name="apellido" type="string"/>
-        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Apellido Paterno" max_length="40" name="apellido_paterno" type="string"/>
+        <element label="Nombre Completo" max_length="40" name="nombre_completo" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element display="true" label="Alias" max_length="40" name="alias" type="string"/>
+        <element label="Apellido Materno" max_length="40" name="apellido_materno" type="string"/>
         <element label="Coordinacion" max_length="32" name="coordinacion" reference="x_999278_nominasrp_coordinadores" type="reference"/>
-        <element label="Nombres" max_length="40" name="nombres" type="string"/>
         <element label="Gerencia" max_length="32" name="gerencia" reference="x_999278_nominasrp_gerentes" type="reference"/>
         <element label="Nombre" max_length="40" name="nombre" type="string"/>
         <element label="Direccion Comercial" max_length="32" name="direccion_comercial" reference="x_999278_nominasrp_directores_comerciales" type="reference"/>
+        <element label="Segundo Nombre" max_length="40" name="segundo_nombre" type="string"/>
         <index name="index">
             <element name="alias"/>
         </index>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="nombre" label="Nombre" language="en" table="x_999278_nominasrp_promotores">
+    <sys_documentation element="curso" label="Curso" language="en" table="x_999278_nominasrp_registros">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>nombre</element>
+            <element>curso</element>
             <help/>
             <hint/>
-            <label>Nombre</label>
+            <label>Curso</label>
             <language>en</language>
-            <name>x_999278_nominasrp_promotores</name>
-            <plural>Nombres</plural>
+            <name>x_999278_nominasrp_registros</name>
+            <plural>Cursos</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-23 06:34:42</sys_created_on>
+            <sys_created_on>2025-05-23 06:42:27</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Nombre</sys_name>
+            <sys_name>Curso</sys_name>
             <sys_package display_value="NominasRP" source="x_999278_nominasrp">ede3183f83612210a71ac8a6feaad34d</sys_package>
             <sys_policy/>
             <sys_scope display_value="NominasRP">ede3183f83612210a71ac8a6feaad34d</sys_scope>
-            <sys_update_name>sys_documentation_x_999278_nominasrp_promotores_nombre_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_999278_nominasrp_registros_curso_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-23 06:34:42</sys_updated_on>
+            <sys_updated_on>2025-05-23 06:42:27</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

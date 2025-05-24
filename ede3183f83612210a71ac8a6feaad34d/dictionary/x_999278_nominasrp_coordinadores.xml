@@ -6,6 +6,13 @@
         <element label="Segundo Nombre" max_length="40" name="segundo_nombre" type="string"/>
         <element display="true" label="Alias" max_length="40" name="alias" type="string"/>
         <element label="Apellido Paterno" max_length="40" name="apellido_paterno" type="string"/>
+        <element label="Gerencia" max_length="32" name="gerencia" reference="x_999278_nominasrp_gerentes" type="reference"/>
         <element label="Nombre" max_length="40" name="nombre" type="string"/>
+        <index name="index">
+            <element name="alias"/>
+        </index>
+        <index name="index2">
+            <element name="gerencia"/>
+        </index>
     </element>
 </database>
